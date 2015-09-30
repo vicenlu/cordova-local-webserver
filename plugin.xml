@@ -29,7 +29,7 @@
     <dependency id="cordova-plugin-file" url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-file.git" version=">=1.3.4" />
 
     <engines>
-        <engine name="cordova-ios" version=">=4.0.0-dev" />
+        <engine name="cordova-ios" version=">=3.9.1" />
     </engines>
 
     <!-- ios -->
