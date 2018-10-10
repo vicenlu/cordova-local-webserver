@@ -17,7 +17,7 @@
   specific language governing permissions and limitations
   under the License.
 -->
-<plugin id="cordova-labs-local-webserver" version="2.3.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="ordova-local-webserver" version="2.3.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>CordovaLocalWebServer</name>
     <description>Cordova Local Web Server Plugin</description>
     <keywords>cordova,local web server</keywords>
@@ -42,7 +42,7 @@
 		    </feature>
             <preference name="CordovaLocalWebServerStartOnSimulator" value="true" />
         </config-file>
-        
+
 		<!-- temporary, until access tags translate into ATS directives in CB-9569 -->
 		<config-file target="*-Info.plist" parent="NSAppTransportSecurity">
 		    <dict>
@@ -52,11 +52,11 @@
 		            <dict>
 		                <key>NSExceptionAllowsInsecureHTTPLoads</key>
 		                <true/>
-		            </dict>  
-		        </dict>  
+		            </dict>
+		        </dict>
 		    </dict>
 		</config-file>
-			
+
 	    <header-file src="src/ios/CDVLocalWebServer.h" />
 	    <source-file src="src/ios/CDVLocalWebServer.m" />
 
